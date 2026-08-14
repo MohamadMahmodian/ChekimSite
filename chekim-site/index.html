@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-textdirection="rtl">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="چِکیم؛ نرم‌افزار جامع توزین باسکول - توزین خودرو خالی، خودرو پر، خودرو پروژه و میکسر بتن، همراه با حسابداری، پیامک، بات بله، گزارش‌گیری و دسترسی تحت وب">
+    <meta name="keywords" content="نرم‌افزار توزین, باسکول, توزین خودرو, میکسر بتن, حسابداری, چِکیم">
+    <meta name="author" content="Chekim">
+    <title>چِکیم | نرم‌افزار توزین باسکول</title>
+    <script>document.documentElement.className += ' js';</script>
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico?v=2026">
+    <!-- Fonts: Estedad (self-hosted in fonts/ to load fast and reliably, even where Google Fonts is blocked) -->
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors-rtl.min.css?v=2026">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap-extended.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/colors.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/components.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/themes/bordered-layout.css?v=2026">
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/custom-rtl.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css?v=2026">
+    <link rel="stylesheet" type="text/css" href="style.css?v=2026">
+    <!-- END: Custom CSS-->
+</head>
+<body>
+
+    <!-- BEGIN: Navbar-->
+    <nav class="ck-nav" id="ckNav">
+        <div class="container">
+            <div class="ck-nav-inner">
+                <a class="ck-brand" href="#home">
+                    <span class="ck-brand-icon"><img src="images/app-icon.png" alt="چِکیم"></span>
+                    <span class="ck-brand-name">چِکیم</span>
+                </a>
+
+                <button class="ck-nav-toggle" id="ckNavToggle" type="button" aria-label="منو">
+                    <i data-feather="menu"></i>
+                </button>
+
+                <div class="ck-nav-menu" id="ckNavMenu">
+                    <ul class="ck-nav-links">
+                        <li><a href="#home" class="active">خانه</a></li>
+                        <li><a href="#weighing">انواع توزین</a></li>
+                        <li><a href="#features">امکانات</a></li>
+                        <li><a href="#future">ویژگی‌های آینده</a></li>
+                        <li><a href="#contact">تماس با ما</a></li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-sm">درخواست دمو</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navbar-->
+
+    <!-- BEGIN: Hero-->
+    <header class="ck-hero" id="home">
+        <div class="ck-hero-blob ck-hero-blob-1"></div>
+        <div class="ck-hero-blob ck-hero-blob-2"></div>
+
+        <div class="container position-relative">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="ck-badge"><i data-feather="cpu" width="14" height="14"></i> نرم‌افزار توزین باسکول | ویندوز و وب</span>
+                    <h1>سامانه جامع توزین <span class="highlight">چِکیم</span></h1>
+                    <p class="lead">
+                        چِکیم با اتصال به باسکول، وزن خالص انواع خودروهای باری (کامیون، کشنده و ...) را
+                        به‌صورت خودکار و دقیق محاسبه می‌کند؛ از توزین خودرو خالی و پر تا توزین‌های
+                        پروژه‌ای و میکسر بتن، همراه با حسابداری طرف حساب، ارسال پیامک، بات بله و گزارش‌گیری حرفه‌ای.
+                    </p>
+                    <div class="ck-hero-actions">
+                        <a href="#weighing" class="btn btn-primary px-3">مشاهده انواع توزین</a>
+                        <a href="#contact" class="btn btn-outline-primary px-3">درخواست نسخه تحت وب</a>
+                    </div>
+                    <div class="ck-stats">
+                        <div class="ck-stat"><b>۴</b><span>نوع توزین</span></div>
+                        <div class="ck-stat"><b>۸+</b><span>امکانات حرفه‌ای</span></div>
+                        <div class="ck-stat"><b>۲</b><span>پلتفرم ویندوز و وب</span></div>
+                        <div class="ck-stat"><b>۲۴/۷</b><span>دسترسی آنلاین</span></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="ck-mock-wrap">
+                        <div class="ck-app-window mx-auto">
+                            <div class="ck-tabs">
+                                <span class="ck-tab active">خودرو خالی</span>
+                                <span class="ck-tab">خودرو پر</span>
+                                <span class="ck-tab">پروژه</span>
+                                <span class="ck-tab">میکسر بتن</span>
+                            </div>
+                            <div class="ck-scale">
+                                <div class="ck-scale-title">وزن خالص بار</div>
+                                <div class="ck-scale-num" dir="ltr">12,540</div>
+                                <div class="ck-scale-unit">کیلوگرم</div>
+                            </div>
+                            <div class="ck-plate">
+                                <i data-feather="truck" width="18" height="18"></i>
+                                <div class="ck-iranplate" title="پلاک ملی ایران">
+                                    <span class="ip-band">۱</span>
+                                    <span class="ip-body">۱۲ <b>ب</b> ۳۴۵ ۶۷</span>
+                                </div>
+                            </div>
+                            <div class="ck-mock-actions">
+                                <button type="button" class="btn btn-primary btn-block">ذخیره توزین</button>
+                                <button type="button" class="btn btn-outline-primary btn-block">چاپ رسید</button>
+                            </div>
+                        </div>
+
+                        <div class="ck-float ck-float-1">
+                            <span class="icon bg-light-success"><i data-feather="send" width="16" height="16"></i></span>
+                            پیامک توزین برای صاحب بار ارسال شد
+                        </div>
+                        <div class="ck-float ck-float-2">
+                            <span class="icon bg-light-primary"><i data-feather="credit-card" width="16" height="16"></i></span>
+                            اعتبار مشتری: ۲۵٬۰۰۰٬۰۰۰ ریال
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END: Hero-->
+
+    <!-- BEGIN: Weighing types-->
+    <section class="ck-section" id="weighing">
+        <div class="container">
+            <div class="ck-sec-head ck-reveal">
+                <span class="eyebrow">چهار فرم توزین</span>
+                <h2>انواع توزین چِکیم</h2>
+                <p>
+                    چِکیم برای هر شرایطی که در باسکول شما اتفاق می‌افتد یک فرم توزین تخصصی دارد؛
+                    از ساده‌ترین (خودرو خالی و پر) تا تخصصی‌ترین (پروژه و میکسر بتن).
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-3">
+                    <div class="ck-card ck-reveal">
+                        <div class="ck-card-icon ck-card-icon-lg bg-light-primary"><img src="images/empty-icon.png" alt="توزین خودرو خالی"></div>
+                        <h3>۱. توزین خودرو خالی</h3>
+                        <p class="card-desc">
+                            وقتی خودرو بدون بار روی باسکول قرار می‌گیرد از این فرم استفاده می‌شود.
+                            قابلیت ویژه این نوع توزین، استفاده از <strong>درصد افت</strong> است؛
+                            برای برخی کارخانه‌ها که با میوه یا بارهایی سروکار دارند که وزن خالص‌شان
+                            پس از توزین پر و خالی تغییر می‌کند.
+                        </p>
+                        <ul>
+                            <li><span class="w">توزین سریع</span> خودروی بدون بار</li>
+                            <li><span class="w">محاسبه درصد افت</span> برای محصولات متغیر</li>
+                            <li><span class="w">ثبت خودکار</span> وزن خالص خودرو</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-3">
+                    <div class="ck-card ck-reveal">
+                        <div class="ck-card-icon ck-card-icon-lg bg-light-success"><img src="images/full-icon.png" alt="توزین خودرو پر"></div>
+                        <h3>۲. توزین خودرو پر</h3>
+                        <p class="card-desc">
+                            وقتی خودرو با بار روی باسکول قرار می‌گیرد از این فرم استفاده می‌شود؛
+                            وزن خالص بار با کم کردن وزن خودرو خالی به‌صورت خودکار محاسبه می‌شود.
+                        </p>
+                        <ul>
+                            <li><span class="w">تفاضل هوشمند</span> وزن پر و خالی</li>
+                            <li><span class="w">محاسبه دقیق</span> وزن خالص بار</li>
+                            <li><span class="w">ثبت ردیف توزین</span> برای پیگیری بعدی</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mb-3 mb-md-0">
+                    <div class="ck-card ck-reveal">
+                        <div class="ck-card-icon ck-card-icon-lg bg-light-warning"><img src="images/full-special-icon.png" alt="توزین خودرو پروژه"></div>
+                        <h3>۳. توزین خودرو پروژه</h3>
+                        <p class="card-desc">
+                            مخصوص معادن شن و ماسه، کارخانه‌های آسفالت و انبارهای ضایعات؛
+                            کامل‌ترین فرم توزین با محاسبات مالی و امکان کنترل اعتبار مشتری.
+                        </p>
+                        <ul>
+                            <li><span class="w">محاسبه کالا با ارزش افزوده</span>، مالیات و درصد افت</li>
+                            <li><span class="w">محاسبه کرایه حمل</span> و اعمال در صورت‌حساب مشتری</li>
+                            <li><span class="w">اعمال تخفیف</span> و نمایش اعتبار مشتری</li>
+                            <li><span class="w">جلوگیری از ثبت توزین</span> هنگام مازاد بدهی</li>
+                            <li><span class="w">آدرس تخلیه</span> برای گزارش‌دهی به مشتری</li>
+                            <li><span class="w">ارسال پیامک</span> با فرمت‌های گوناگون به طرف حساب</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="ck-card ck-reveal">
+                        <div class="ck-card-icon ck-card-icon-lg bg-light-info"><img src="images/beton-icon.png" alt="توزین میکسر بتن"></div>
+                        <h3>۴. توزین میکسر بتن</h3>
+                        <p class="card-desc">
+                            در این فرم تمام اطلاعات فنی بتن پرسیده می‌شود و متراژ ارسالی
+                            به هر آدرس تخلیه در هر توزین نمایش داده می‌شود.
+                        </p>
+                        <ul>
+                            <li><span class="w">مشخصات بتن</span>: وزن مخصوص، عیار، رده مقاومتی، نوع سیمان و نوع بتن</li>
+                            <li><span class="w">مصالح</span>: مقدار شن، ماسه و مواد افزودنی</li>
+                            <li><span class="w">سفارش و محیط</span>: نوع سفارش و شرایط محیطی</li>
+                            <li><span class="w">تخلیه</span>: آدرس، روش تخلیه و محل بتن‌ریزی</li>
+                            <li><span class="w">ارسال پیامک</span> و نمایش متراژ ارسالی به هر آدرس تخلیه</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Weighing types-->
+
+    <!-- BEGIN: Features-->
+    <section class="ck-section ck-section-alt" id="features">
+        <div class="container">
+            <div class="ck-sec-head ck-reveal">
+                <span class="eyebrow">امکانات چِکیم</span>
+                <h2>هر آنچه یک باسکول حرفه‌ای نیاز دارد</h2>
+                <p>
+                    چِکیم تنها یک نرم‌افزار توزین نیست؛ یک راهکار کامل برای مدیریت فروش، حساب مشتریان و ارتباط با صاحبان بار است.
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-primary"><i data-feather="book"></i></div>
+                        <h3>حسابداری طرف حساب</h3>
+                        <p>
+                            سیستم حسابداری داخلی برای حساب مشتریان؛ بار فروخته شده در توزین‌های پروژه
+                            و بتن مستقیماً در حساب مشتری ثبت می‌شود.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-success"><i data-feather="message-circle"></i></div>
+                        <h3>بات بله</h3>
+                        <p>
+                            طرف حساب می‌تواند ۱۰ گردش مالی یا ۱۰ توزین آخر خود را ببیند و جزئیات هر
+                            توزین را بر اساس ردیف توزین مشاهده کند.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-info"><i data-feather="send"></i></div>
+                        <h3>ارسال پیامک</h3>
+                        <p>
+                            اطلاعات توزین‌ها به‌صورت خودکار برای صاحب بار ارسال می‌شود؛
+                            اطمینان خاطر در هر زمان و هر مکان.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-warning"><i data-feather="users"></i></div>
+                        <h3>مدیریت کاربران</h3>
+                        <p>
+                            با سطح دسترسی دلخواه، دسترسی کاربران را به فرم‌ها محدود کنید و امکان
+                            ویرایش یا حذف را از آن‌ها سلب کنید.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-danger"><i data-feather="globe"></i></div>
+                        <h3>دسترسی تحت وب</h3>
+                        <p>
+                            با داشتن فقط اینترنت، تمام امکانات نسخه ویندوز را در محیط معدن یا باسکول
+                            خود داشته باشید.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-primary"><i data-feather="activity"></i></div>
+                        <h3>نمایش خودکار عدد باسکول</h3>
+                        <p>
+                            نمایش وزن به‌صورت خودکار از سخت‌افزار باسکول؛ کاربر داده کمتری در فرم
+                            وارد می‌کند و خطا به حداقل می‌رسد.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-success"><i data-feather="bar-chart-2"></i></div>
+                        <h3>سیستم گزارش‌گیری</h3>
+                        <p>
+                            هر گزارشی که بخواهید، بدون نوشتن کد روی کامپیوتر مشتری و بدون محدودیت
+                            طراحی می‌شود.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ck-card ck-feat-card ck-reveal">
+                        <div class="ck-card-icon bg-light-info"><i data-feather="refresh-cw"></i></div>
+                        <h3>به‌روزرسانی خودکار</h3>
+                        <p>
+                            مکانیزم آنلاین به‌روزرسانی؛ با آمدن نسخه جدید، به کاربران اطلاع داده
+                            می‌شود تا برنامه را به‌روز کنند.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Features-->
+
+    <!-- BEGIN: Future features-->
+    <section class="ck-section" id="future">
+        <div class="container">
+            <div class="ck-sec-head ck-reveal">
+                <span class="eyebrow">در مسیر توسعه</span>
+                <h2>ویژگی‌های آینده چِکیم</h2>
+                <p>چِکیم پیوسته در حال پیشرفت است و به‌زودی این امکانات نیز اضافه می‌شوند.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="ck-future-card ck-reveal">
+                        <div class="ck-future-inner">
+                            <span class="soon-badge"><i data-feather="clock" width="14" height="14"></i> به‌زودی</span>
+                            <div class="ck-future-icon"><i data-feather="camera"></i></div>
+                            <h3>پلاک‌خوان خودکار</h3>
+                            <p>
+                                خواندن خودکار پلاک از دوربین متصل به کامپیوتر؛ بدون نیاز به تایپ دستی
+                                پلاک، سرعت توزین چند برابر می‌شود.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ck-future-card ck-reveal" style="background: linear-gradient(135deg, #2f7ae8, #00cfe8);">
+                        <div class="ck-future-inner">
+                            <span class="soon-badge"><i data-feather="clock" width="14" height="14"></i> به‌زودی</span>
+                            <div class="ck-future-icon"><i data-feather="file-text"></i></div>
+                            <h3>خروجی امور مودیان</h3>
+                            <p>
+                                خروجی استاندارد موردنیاز برای اداره مالیات (امور مودیان) به‌صورت خودکار
+                                و مطابق قوانین مالیاتی کشور.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Future features-->
+
+    <!-- BEGIN: CTA + Contact-->
+    <section class="ck-section pt-0" id="contact">
+        <div class="container">
+            <div class="ck-cta ck-reveal">
+                <h2>همین امروز توزین باسکول خود را با چِکیم شروع کنید</h2>
+                <p>
+                    نسخه ویندوز (WPF) یا نسخه تحت وب چِکیم را برای باسکول خود درخواست دهید؛
+                    تیم ما در کوتاه‌ترین زمان آن را راه‌اندازی و آموزش می‌دهد.
+                </p>
+                <div class="ck-cta-actions">
+                    <a href="mailto:sales@chekim.ir" class="btn btn-light px-4">درخواست دمو</a>
+                    <a href="tel:+982100000000" class="btn btn-outline-light px-4"><i data-feather="phone" width="16" height="16"></i> تماس با ما</a>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="ck-contact-box ck-reveal">
+                        <div class="icon bg-light-primary"><i data-feather="headphones"></i></div>
+                        <h4>پشتیبانی</h4>
+                        <p>پاسخگویی و پشتیبانی فنی در تمام مراحل راه‌اندازی</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="ck-contact-box ck-reveal">
+                        <div class="icon bg-light-success"><i data-feather="smartphone"></i></div>
+                        <h4>موبایل و پیامک</h4>
+                        <p>اعلام توزین‌ها به صاحب بار از طریق پیامک و بات بله</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="ck-contact-box ck-reveal">
+                        <div class="icon bg-light-info"><i data-feather="shield"></i></div>
+                        <h4>اطلاعات امن</h4>
+                        <p>مدیریت سطح دسترسی کاربران و محافظت از داده‌های توزین</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: CTA + Contact-->
+
+    <!-- BEGIN: Footer-->
+    <footer class="ck-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a class="ck-brand" href="#home">
+                        <span class="ck-brand-icon"><img src="images/app-icon.png" alt="چِکیم"></span>
+                        <span class="ck-brand-name">چِکیم</span>
+                    </a>
+                    <p class="ck-brand-desc">
+                        نرم‌افزار تخصصی توزین باسکول برای خودروهای باری؛ با امکانات حسابداری،
+                        پیامک، بات بله، گزارش‌گیری و دسترسی تحت وب.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h5>دسترسی سریع</h5>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#weighing">انواع توزین</a></li>
+                        <li><a href="#features">امکانات</a></li>
+                        <li><a href="#future">ویژگی‌های آینده</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                    <h5>انواع توزین</h5>
+                    <ul>
+                        <li><a href="#weighing">خودرو خالی</a></li>
+                        <li><a href="#weighing">خودرو پر</a></li>
+                        <li><a href="#weighing">خودرو پروژه</a></li>
+                        <li><a href="#weighing">میکسر بتن</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5>تماس</h5>
+                    <ul>
+                        <li><a href="tel:+982100000000"><i data-feather="phone" width="14" height="14"></i> ۰۲۱-۰۰۰۰۰۰۰۰</a></li>
+                        <li><a href="mailto:sales@chekim.ir"><i data-feather="mail" width="14" height="14"></i> sales@chekim.ir</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ck-footer-bottom">
+                © تمامی حقوق برای نرم‌افزار توزین چِکیم محفوظ است.
+            </div>
+        </div>
+    </footer>
+    <!-- END: Footer-->
+
+    <button class="ck-top" id="ckTop" type="button" aria-label="بازگشت به بالا"><i data-feather="arrow-up"></i></button>
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="app-assets/vendors/js/vendors.min.js?v=2026"></script>
+    <!-- END: Vendor JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (typeof feather !== 'undefined') {
+                feather.replace({
+                    width: 20,
+                    height: 20
+                });
+            }
+        });
+
+        (function () {
+            var $nav = $('#ckNav');
+            var $top = $('#ckTop');
+
+            // Navbar background on scroll
+            $(window).on('scroll', function () {
+                var y = window.pageYOffset || document.documentElement.scrollTop;
+                $nav.toggleClass('scrolled', y > 40);
+                $top.toggleClass('show', y > 500);
+            });
+
+            // Mobile menu toggle
+            $('#ckNavToggle').on('click', function () {
+                $('#ckNavMenu').toggleClass('open');
+            });
+
+            // Smooth scroll + scrollspy
+            var sections = {};
+            $('.ck-nav-links a').each(function () {
+                sections[$(this).attr('href')] = $(this);
+            });
+
+            $(window).on('scroll', function () {
+                var pos = window.pageYOffset || document.documentElement.scrollTop;
+                var current = null;
+                $.each(sections, function (href, link) {
+                    var $sec = $(href);
+                    if ($sec.length && $sec.offset().top - 120 <= pos) {
+                        current = href;
+                    }
+                });
+                $('.ck-nav-links a').removeClass('active');
+                if (current) {
+                    sections[current].addClass('active');
+                }
+            });
+
+            $('.ck-nav-links a, a[href^="#"]').on('click', function (e) {
+                var target = $(this).attr('href');
+                if ($(target).length) {
+                    e.preventDefault();
+                    $('html, body').animate({ scrollTop: $(target).offset().top - 72 }, 500);
+                    $('#ckNavMenu').removeClass('open');
+                }
+            });
+
+            // Back to top
+            $top.on('click', function () {
+                $('html, body').animate({ scrollTop: 0 }, 500);
+            });
+
+            // Reveal on scroll
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            document.querySelectorAll('.ck-reveal').forEach(function (el) {
+                observer.observe(el);
+            });
+        })();
+    </script>
+</body>
+</html>
